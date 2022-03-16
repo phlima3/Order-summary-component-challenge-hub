@@ -51,7 +51,7 @@ main {
 
 section {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 section .titulo {
   font-size: 18px;
@@ -64,7 +64,7 @@ section .sub-titulo {
   font-size: 18px;
 }
 .plano {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
 }
@@ -74,6 +74,48 @@ section .sub-titulo {
 .plano .infos {
   margin-left: 1rem;
 }
-.plano .mudar {
+.plano .infos #txt-plano {
+  color: var(--cor-titulo);
+  font-weight: 900;
+}
+.plano .infos #preco-plano {
+  color: var(--cor-texto);
+}
+.plano .mudar a {
   margin-left: 5rem;
+  color: var(--cor-botao);
+}
+.plano .mudar a:hover {
+  transform: 0.2s;
+  color: #5b4dff;
+}
+.btn-checkout input {
+  background: var(--cor-botao);
+
+  color: white;
+  border-style: none;
+  height: 3rem;
+  width: 90%;
+  margin-left: 1.3rem;
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+
+  font: 900 17px 'Red Hat Display', sans-serif;
+}
+.btn-checkout input:hover {
+  background: #5b4dff;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.cancel {
+  margin-top: 2rem;
+  text-align: center;
+}
+.cancel p {
+  color: var(--cor-texto);
+  font-weight: 900;
+  font-size: 16px;
+}
+.cancel p:hover {
+  cursor: pointer;
 }
