@@ -8,8 +8,14 @@
 
 /*VARIÁVEIS */
 :root {
-  --cor-bg-primario: hsl(224, 23%, 55%);
+  --cor-bg-primario: hsl(225, 100%, 94%);
   --cor-bg-secundario: hsl(225, 100%, 98%);
+
+  --cor-texto: hsl(224, 23%, 55%);
+  --cor-titulo: hsl(223, 47%, 23%);
+
+  --cor-pale-blue: hsl(225, 100%, 94%);
+  --cor-botao: hsl(245, 75%, 52%);
 }
 
 /* */
@@ -41,4 +47,19 @@ main {
   height: 100%;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+section {
+  text-align: center;
+  margin-top: 3rem;
+}
+section .titulo {
+  font-size: 18px;
+  color: var(--cor-titulo);
+}
+section .sub-titulo {
+  margin-top: 1rem;
+  color: var(--cor-texto);
+  font-size: 18px;
+  text-align: center;
 }
