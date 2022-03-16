@@ -32,7 +32,7 @@ main {
 }
 
 .container {
-  width: 28rem;
+  width: 25rem;
   height: 38rem;
   background-color: var(--cor-bg-secundario);
   border-radius: 1rem;
@@ -56,10 +56,24 @@ section {
 section .titulo {
   font-size: 18px;
   color: var(--cor-titulo);
+  font-weight: 900;
 }
 section .sub-titulo {
   margin-top: 1rem;
   color: var(--cor-texto);
   font-size: 18px;
-  text-align: center;
+}
+.plano {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+.plano .img-plano {
+  margin-left: 3rem;
+}
+.plano .infos {
+  margin-left: 1rem;
+}
+.plano .mudar {
+  margin-left: 5rem;
 }
